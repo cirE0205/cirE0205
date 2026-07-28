@@ -4,7 +4,7 @@
 
 ### Senior Technical Animator · Humanoid Robots ↔ Digital Humans
 
-Bridge between DCC animation and humanoid robot motion. Ship mocap → simulation → hardware / MetaHuman / Unity mobile / UE runtime pipelines end-to-end.
+Bridge between DCC animation and humanoid robot motion. Ship mocap → simulation → hardware / MetaHuman / Unity + UE runtime (desktop + mobile) pipelines end-to-end.
 
 **~15 years** shipping animation and character-tech across enterprise, digital-human, and humanoid-robot platforms. Recent focus: porting the same pipelines that ship virtual humans onto physical humanoids.
 
