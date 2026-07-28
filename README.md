@@ -1,5 +1,3 @@
-## Hi there 👋
-
 # Hi, I'm Eric.Deng 👋
 
 ### Senior Technical Animator · Humanoid Robots ↔ Digital Humans
