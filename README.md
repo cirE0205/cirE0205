@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-# Hi, I'm Xiaoguang (Eric) Deng 👋
+# Hi, I'm Eric.Deng 👋
 
 ### Senior Technical Animator · Humanoid Robots ↔ Digital Humans
 
