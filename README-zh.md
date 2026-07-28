@@ -23,7 +23,7 @@
 
 - **离线语音到动画资产生成器(Python)** — 一个**产出动画文件的工具**:音频输入 → 身体动作 + 面部 + 口型生成 → BVH + UE-JSON + ARKit MTA52 / MetaHuman 曲线,供下游导入 UE MetaHuman 或机器人重定向使用。本地推理(vLLM 长上下文服务, SenseVoice, 2.1 万条动作标注库)。
 
-- **手机遥操作 App** — Unity 3D + Sentis ONNX 端侧推理;驱动实体机器人(RL 训练的运动策略 + 面部表情 + 身体待机动作,机械关节 + 面部混合形变的混合绑定)。
+- **移动端机器人遥控操作 App** — Unity 3D + Sentis ONNX 端侧推理;驱动实体机器人(RL 训练的运动策略 + 面部表情 + 身体待机动作,机械关节 + 面部混合形变的混合绑定)。
 
 - **医疗 3D 可视化 + 绑定** — 自研 **Three.js 绑定模板驱动所有生成的 3D 心脏模型**(把动画 TA 的绑定能力搬到 Web 环境)。生产级渲染器,可切换 UE Pixel Streaming 后端;Agatston 钙化评分算法在 Stanford COCA 公开数据集上 9/9 完全匹配。
 
