@@ -10,11 +10,18 @@ Bridge between DCC animation and humanoid robot motion. Ship mocap → simulatio
 
 ### 🛠 What I'm working on
 
-- **LAFAN1 BVH → humanoid robot `qpos`** — dual retargeting pipeline (GMR + custom MuJoCo DLS-IK), cross-machine git workflow, MuJoCo playback verified.
-- **NVIDIA Kimodo text-to-motion** — local deployment, planning the Kimodo (SMPL-X) → GMR → robot bridge.
-- **Speech-driven digital human** — audio → body + face + lipsync, ARKit MTA52 / MetaHuman output, RTX 3070 local inference.
-- **Unity + Sentis mobile robot** — RL-trained locomotion policy running on Android.
-- **Medical 3D visualization** — Three.js production renderer with UE Pixel Streaming swap-in abstraction.
+- **Physical humanoid dancing from mocap** — dual retargeting pipeline (GMR + custom MuJoCo DLS-IK) drives LAFAN1 BVH → robot qpos → **real hardware execution**, not just sim playback. Cross-machine (Win ↔ Linux) git workflow.
+
+- **Realtime AI-driven MetaHuman** — live interactive digital human: audio in → LLM → Azure Custom Voice TTS → own lipsync script → **UE Pixel Streaming** out. Interactive **< 1s roundtrip** target.
+
+- **NVIDIA Kimodo text-to-motion → robot bridge** — local Kimodo deployment; text prompt → SMPL-X → GMR → 23-DOF humanoid qpos → MuJoCo. Text-driven authoring for a custom humanoid platform.
+
+- **Offline speech-driven digital human** — audio → body + face + lipsync generation, ARKit MTA52 / MetaHuman curves output, RTX 3070 local inference (vLLM long-context server, SenseVoice, 21K-clip motion catalog).
+
+- **Android teleoperation app for physical humanoids** — Unity + Sentis ONNX on-device inference; APK drives real robot (RL-trained locomotion policy + expressive animation, hybrid mechanical + face rig).
+
+- **Medical 3D visualization** — Three.js production renderer with swappable UE Pixel Streaming abstraction; Agatston calcium-score algo validated 9/9 vs Stanford COCA.
+
 
 ---
 
