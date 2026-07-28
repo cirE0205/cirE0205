@@ -1,3 +1,5 @@
+[English](README.md) · [中文](README-zh.md)
+
 # Hi, I'm Eric.Deng 👋
 
 ### Senior Technical Animator · Humanoid Robots ↔ Digital Humans
