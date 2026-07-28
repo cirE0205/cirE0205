@@ -10,18 +10,17 @@ Bridge between DCC animation and humanoid robot motion. Ship mocap → simulatio
 
 ### 🛠 What I'm working on
 
-- **Physical humanoid dancing from mocap** — dual retargeting pipeline (GMR + custom MuJoCo DLS-IK) drives LAFAN1 BVH → robot qpos → **real hardware execution**, not just sim playback. Cross-machine (Win ↔ Linux) git workflow.
+- **Physical humanoid motion from mocap** — dual retargeting pipeline (GMR + custom MuJoCo DLS-IK) drives LAFAN1 BVH → robot qpos → **real hardware execution**, not just sim playback. Cross-machine (Win ↔ Linux) git workflow.
 
-- **Realtime AI-driven MetaHuman** — live interactive digital human: audio in → LLM → Azure Custom Voice TTS → own lipsync script → **UE Pixel Streaming** out. Interactive **< 1s roundtrip** target.
+- **Realtime AI-driven MetaHuman (UE Pixel Streaming)** — a **live product**: audio in → LLM → Azure Custom Voice TTS → own lipsync script → MetaHuman face → UE Pixel Streaming video out. **< 1s roundtrip.**
 
 - **NVIDIA Kimodo text-to-motion → robot bridge** — local Kimodo deployment; text prompt → SMPL-X → GMR → 23-DOF humanoid qpos → MuJoCo. Text-driven authoring for a custom humanoid platform.
 
-- **Offline speech-driven digital human** — audio → body + face + lipsync generation, ARKit MTA52 / MetaHuman curves output, RTX 3070 local inference (vLLM long-context server, SenseVoice, 21K-clip motion catalog).
+- **Offline speech-to-animation asset generator (Python)** — a **tool that produces animation files**: audio in → body motion + face + lipsync generation → BVH + UE-JSON + ARKit MTA52 / MetaHuman curves on disk for downstream import into UE MetaHuman or robot retargeting. Local inference (vLLM long-context server, SenseVoice, 21K-clip motion catalog).
 
-- **Android teleoperation app for physical humanoids** — Unity + Sentis ONNX on-device inference; APK drives real robot (RL-trained locomotion policy + expressive animation, hybrid mechanical + face rig).
+- **Mobile teleoperation app** — Unity 3D + Sentis ONNX on-device inference; drives real robot (RL-trained locomotion policy + face expression + idle body motion, hybrid mechanical joints + face blendshape rig).
 
-- **Medical 3D visualization** — Three.js production renderer with swappable UE Pixel Streaming abstraction; Agatston calcium-score algo validated 9/9 vs Stanford COCA.
-
+- **Medical 3D visualization + rigging** — authored a **Three.js rig template that drives all generated 3D heart meshes** (Motion-TD rigging skillset ported to a web context). Production renderer with swappable UE Pixel Streaming abstraction; Agatston calcium-score algo validated 9/9 vs Stanford COCA.
 
 ---
 
@@ -30,7 +29,7 @@ Bridge between DCC animation and humanoid robot motion. Ship mocap → simulatio
 - **DCC** — Maya · Blender · 3ds Max · MotionBuilder · HumanIK · Advanced Skeleton
 - **3D Engines** — UE 5.2 → 5.8 (Control Rig · MetaHuman · IK Retargeter · Sequencer · LiveLink · Motion Matching · Anim BP) · Unity 2022+ · Three.js
 - **Robotics** — MuJoCo · URDF/MJCF · IK (own DLS impl) · GMR · Kimodo · NVIDIA GEAR (BeyondMimic / mjlab / ProtoMotions) · IsaacGym / Isaac Lab · ROS Noetic
-- **Programming** — Python (numpy · PyTorch · `bpy` · mujoco · vLLM) · TypeScript / React / Electron · C# · MEL / Maya Python · C++ (UE plugins) · Git + Git LFS
+- **Programming** — Python (numpy · PyTorch · `bpy` · mujoco · vLLM) · TypeScript / React / Electron · C# · MEL / Maya Python · C++ · Git + Git LFS
 - **AI-augmented dev (daily driver)** — Claude Code · OpenAI Codex · Google Antigravity · Cursor · UE / Unity / Blender MCP
 
 
