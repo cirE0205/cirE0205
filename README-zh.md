@@ -3,7 +3,7 @@
      cirE0205/cirE0205 仓库里。或者保留英文版为主 README,把这个作为 README-zh.md
      并在英文版顶部加一行 [English](README.md) | [中文](README-zh.md) 语言切换。 -->
 
-# 大家好,我是 邓晓光 (Xiaoguang / Eric Deng) 👋
+# Hi ,我是 邓👋
 
 ### 资深技术动画师 · 人形机器人 ↔ 数字人
 
