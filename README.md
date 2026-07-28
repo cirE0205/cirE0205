@@ -28,7 +28,7 @@ Bridge between DCC animation and humanoid robot motion. Ship mocap → simulatio
 
 - **DCC** — Maya · Blender · 3ds Max · MotionBuilder · HumanIK · Advanced Skeleton
 - **3D Engines** — UE 5.2 → 5.8 (Control Rig · MetaHuman · IK Retargeter · Sequencer · LiveLink · Motion Matching · Anim BP) · Unity 2022+ · Three.js
-**Robotics** — Isaac Sim · Isaac Lab · IsaacGym (RL + sim-to-real training) · MuJoCo (contact-accurate validation) · URDF/MJCF (formats) · DLS-IK own impl · GMR · Kimodo · NVIDIA GEAR (BeyondMimic / mjlab / ProtoMotions) (motion imitation) · ROS (middleware)
+- **Robotics** — Isaac Sim · Isaac Lab · IsaacGym (RL + sim-to-real training) · MuJoCo (contact-accurate validation) · URDF/MJCF (formats) · DLS-IK own impl · GMR · Kimodo · NVIDIA GEAR (BeyondMimic / mjlab / ProtoMotions) (motion imitation) · ROS (middleware)
 - **Programming** — Python (numpy · PyTorch · `bpy` · mujoco · vLLM) · TypeScript / React / Electron · C# · MEL / Maya Python · C++ · Git + Git LFS
 - **AI-augmented dev (daily driver)** — Claude Code · OpenAI Codex · Google Antigravity · Cursor · UE / Unity / Blender MCP
 
